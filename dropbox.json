@@ -1,0 +1,466 @@
+
+[{
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "Arrays",
+        "items": [{
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Rotate Image",
+                "restrictions": ["https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/", "V"],
+                "description": "You are given an n x n 2D matrix representing an image. Rotate the image by 90 degrees (clockwise). Note: You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation."
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Subsets",
+                "restrictions": ["https://www.geeksforgeeks.org/find-m-th-smallest-value-in-k-sorted-arrays/", "G", "V"],
+                "description": "Given a set of distinct integers, nums, return all possible subsets (the power set). Note: The solution set must not contain duplicate subsets."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "Merge Sorted Array",
+                "restrictions": ["https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/", "N"],
+                "description": "Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array. Note:The number of elements initialized in nums1 and nums2 are m and n respectively.You may assume that nums1 has enough space(size that is greater or equal to m + n) to hold additional elements from nums2."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": " Maximum Product Subarray",
+                "restrictions": ["https://www.geeksforgeeks.org/largest-subset-whose-all-elements-are-fibonacci-numbers/", "G"],
+                "description": "Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "Majority Element II",
+                "restrictions": ["https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/"],
+                "description": "Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times. Note: The algorithm should run in linear time and in O(1) space."
+            },
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Maximum Swap",
+                "restrictions": ["https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/", "V"],
+                "description": "Given a non-negative integer, you could swap two digits at most once to get the maximum valued number. Return the maximum valued number you could get."
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Maximum Sum of 3 Non-Overlapping Subarrays",
+                "restrictions": ["https://www.geeksforgeeks.org/find-m-th-smallest-value-in-k-sorted-arrays/", "G", "V"],
+                "description": "In a given array nums of positive integers, find three non-overlapping subarrays with maximum sum. Each subarray will be of size k, and we want to maximize the sum of all 3*k entries. Return the result as a list of indices representing the starting position of each interval (0-indexed). If there are multiple answers, return the lexicographically smallest one."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "Friends Of Appropriate Ages",
+                "restrictions": ["https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/", "N"],
+                "description": "Some people will make friend requests. The list of their ages is given and ages[i] is the age of the ith person. Person A will NOT friend request person B (B != A) if any of the following conditions are true: age[B] <= 0.5 * age[A] + 7age[B] > age[A]age[B] > 100 && age[A] < 100.Otherwise,A will friend request B.Note that if A requests B,B does not necessarily request A.Also,people will not friend request themselves.How many total friend requests are made ? "
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": " Image Smoother",
+                "restrictions": ["https://www.geeksforgeeks.org/largest-subset-whose-all-elements-are-fibonacci-numbers/", "G"],
+                "description": "Given a 2D integer matrix M representing the gray scale of an image, you need to design a smoother to make the gray scale of each cell becomes the average gray scale (rounding down) of all the 8 surrounding cells and itself. If a cell has less than 8 surrounding cells, then use as many as you can."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "Task Scheduler",
+                "restrictions": ["https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/"],
+                "description": "Given a char array representing tasks CPU need to do. It contains capital letters A to Z where different letters represent different tasks. Tasks could be done without original order. Each task could be done in one interval. For each interval, CPU could finish one task or just be idle. However, there is a non-negative cooling interval n that means between two same tasks, there must be at least n intervals that CPU are doing different tasks or just be idle. You need to return the least number of intervals the CPU will take to finish all the given tasks."
+            }
+        ]
+    },
+{
+    "id": "EF1CC8BB-4785-4D8E-AB98-5FA5E00B6A10",
+    "name": "BackTracking",
+    "items": [{
+            "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+            "name": "Single Number",
+            "restrictions": ["G", "V"],
+            "description": "Given a non-empty array of integers, every element appears twice except for one. Find that single one.."
+        },
+        {
+            "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+            "name": "Repeated DNA Sequences",
+            "restrictions": ["D", "G", "V"],
+            "description": "All DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, for example: ACGAATTCCG. When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule."
+        },
+        {
+            "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+            "name": "Reverse Bits",
+            "restrictions": ["D", "N"],
+            "description": "Reverse bits of a given 32 bits unsigned integer."
+        },
+        {
+            "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+            "name": "Bitwise AND of Numbers Range",
+            "restrictions": ["D", "G"],
+            "description": "Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive."
+        },
+        {
+            "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+            "name": "Kth Largest Element in an Array ",
+            "restrictions": ["G"],
+            "description": "Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element."
+        },
+        {
+            "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+            "name": "Additive Number ",
+            "restrictions": ["D", "N", "V"],
+            "description": "Additive number is a string whose digits can form additive sequence.A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.Given a string containing only digits '0'-'9', write a function to determine if it's an additive number."
+        }
+    ]
+},
+
+{
+    "id": "EF1CC5BB-4785-3D8E-AB98-5FA5E00B6A66",
+    "name": "Bit Manipulation",
+    "items": [
+        {
+            "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+            "name": "Pyramid Transition Matrix ",
+            "restrictions": ["G", "V"],
+            "description": "We are stacking blocks to form a pyramid. Each block has a color which is a one letter string."
+        },
+        {
+            "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+            "name": "Letter Case Permutation",
+            "restrictions": ["D", "G", "V"],
+            "description": "Given a string S, we can transform every letter individually to be lowercase or uppercase to create another string.  Return a list of all possible strings we could create.."
+        },
+        {
+            "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+            "name": "Reverse Bits",
+            "restrictions": ["D", "N"],
+            "description": "Reverse bits of a given 32 bits unsigned integer."
+        },
+        {
+            "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+            "name": "Bitwise AND of Numbers Range",
+            "restrictions": ["D", "G"],
+            "description": "Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive."
+        },
+        {
+            "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+            "name": "Kth Largest Element in an Array ",
+            "restrictions": ["G"],
+            "description": "Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element."
+        },
+        {
+            "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+            "name": "Additive Number ",
+            "restrictions": ["D", "N", "V"],
+            "description": "Additive number is a string whose digits can form additive sequence.A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.Given a string containing only digits '0'-'9', write a function to determine if it's an additive number."
+        }
+    ]
+},
+
+
+{
+    "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B7A66",
+    "name": "Queues",
+    "items": [
+        {
+            "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+            "name": "Moving average from data Stream",
+            "restrictions": ["G", "V"],
+            "description": "Given a list of integers, find the moving average of the dsata stream"
+        },
+        {
+            "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+            "name": "Design Circular Deque ",
+            "restrictions": ["D", "G", "V"],
+            "description": "esign your implementation of the circular double-ended queue (deque)"
+        },
+        {
+            "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+            "name": "Shortest Subarray with Sum at Least K ",
+            "restrictions": ["D", "N"],
+            "description": "Return the length of the shortest, non-empty, contiguous subarray of A with sum at least K."
+        },
+        {
+            "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+            "name": "Number of Recent Calls ",
+            "restrictions": ["D", "G"],
+            "description": "Write a class RecentCounter to count recent requests.t has only one method: ping(int t), where t represents some time in milliseconds.Return the number of pings that have been made from 3000 milliseconds ago until now.Any ping with time in [t - 3000, t] will count, including the current ping."
+        },
+        {
+            "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+            "name": "Max Sum of Rectangle No Larger Than K ",
+            "restrictions": ["G"],
+            "description": "Given a non-empty 2D matrix matrix and an integer k, find the max sum of a rectangle in the matrix such that its sum is no larger than k."
+        },
+    ]
+},
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA5E00B6A66",
+        "name": "Strings",
+        "items": [{
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Remove Palindromic Subsequences",
+                "restrictions": ["https://www.geeksforgeeks.org/find-if-string-is-k-palindrome-or-not-set-2/", "V"],
+                "description": "Given a string s consisting only of letters 'a' and 'b'. In a single step you can remove one palindromic subsequence from s. Return the minimum number of steps to make the given string empty. A string is a subsequence of a given string, if it is generated by deleting some characters of a given string without changing its order. A string is called palindrome if is one that reads the same backward as well as forward."
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Shortest Palindrome",
+                "restrictions": ["https://www.geeksforgeeks.org/find-if-string-is-k-palindrome-or-not-set-2/", "G", "V"],
+                "description": "Given a string s, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "Palindrome Pairs",
+                "restrictions": ["https://www.geeksforgeeks.org/program-to-add-two-binary-strings/", "N"],
+                "description": "Given a list of unique words, find all pairs of distinct indices (i, j) in the given list, so that the concatenation of the two words, i.e. words[i] + words[j] is a palindrome."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "String Compression",
+                "restrictions": ["D", "G"],
+                "description": "Given an array of characters, compress it in-place. The length after compression must always be smaller than or equal to the original array. Every element of the array should be a character (not int) of length 1. After you are done modifying the input array in-place, return the new length of the array."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "Rotated Digits",
+                "restrictions": ["G"],
+                "description": "X is a good number if after rotating each digit individually by 180 degrees, we get a valid number that is different from X.  Each digit must be rotated - we cannot choose to leave it alone. A number is valid if each digit remains a digit after rotation. 0, 1, and 8 rotate to themselves; 2 and 5 rotate to each other (on this case they are rotated in a different direction, in other words 2 or 5 gets mirrored); 6 and 9 rotate to each other, and the rest of the numbers do not rotate to any other number and become invalid. Now given a positive number N, how many numbers X from 1 to N are good? "
+            }
+        ]
+    },
+    {
+          "id": "EF1CC5BB-4785-4D8E-AB98-5FA5E00C6A66",
+          "name": "Stacks",
+          "items": [{
+                  "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                  "name": "Online Stock Span",
+                  "restrictions": ["G", "V"],
+                  "description": "Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock's price for the current day. The span of the stock's price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today's price. For example, if the price of a stock over the next 7 days were [100, 80, 60, 70, 60, 75, 85], then the stock spans would be [1, 1, 1, 2, 1, 4, 6]."
+              },
+              {
+                  "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                  "name": "Mini Parser",
+                  "restrictions": ["D", "G", "V"],
+                  "description": "Given a nested list of integers represented as a string, implement a parser to deserialize it. Each element is either an integer, or a list -- whose elements may also be integers or other lists. Note: You may assume that the string is well-formed:String is non - empty.String does not contain white spaces.String contains only digits 0 - 9,[, -, , ]."
+              },
+              {
+                  "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                  "name": "Design a Stack With Increment Operation",
+                  "restrictions": ["D", "N"],
+                  "description": "Design a stack which supports the following operations. Implement the CustomStack class: CustomStack(int maxSize) Initializes the object with maxSize which is the maximum number of elements in the stack or do nothing if the stack reached the maxSize. void push(int x) Adds x to the top of the stack if the stack hasn't reached the maxSize."
+              },
+              {
+                  "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                  "name": "Basic Calculator",
+                  "restrictions": ["D", "G"],
+                  "description": "Implement a basic calculator to evaluate a simple expression string. The expression string may contain open ( and closing parentheses ), the plus + or minus sign -, non-negative integers and empty spaces ."
+              },
+              {
+                  "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                  "name": "Remove K Digits",
+                  "restrictions": ["G"],
+                  "description": "Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible."
+              }
+          ]
+      },
+    {
+           "id": "EF1CC5BB-1785-4D8E-AB98-5FA5E00C6A68",
+           "name": "Divide and Conquer",
+           "items": [{
+                   "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                   "name": "Two sum",
+                   "restrictions": ["G", "V"],
+                   "description": "Given an array of integers, return indices of the two numbers such that they add up to a specific target.You may assume that each input would have exactly one solution, and you may not use the same element twice."
+               },
+               {
+                   "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                   "name": "Container with most water",
+                   "restrictions": ["D", "G", "V"],
+                   "description": "Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water."
+               },
+               {
+                   "id": "CFB8C2DB-3478-4110-92FA-3D2A2D5324FB",
+                   "name": "Valid paranthesis",
+                   "restrictions": ["D", "N"],
+                   "description": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid."
+               },
+               {
+                   "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                   "name": "Remove Duplicates from Sorted Array",
+                   "restrictions": ["D", "G"],
+                   "description": "Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory."
+               },
+               {
+                   "id": "82B28AFF-BB29-4106-AA07-04959180D81A",
+                   "name": "Remove Element",
+                   "restrictions": ["G"],
+                   "description": "Given an array nums and a value val, remove all instances of that value in-place and return the new length.Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory."
+               },
+               {
+                   "id": "190E1A9D-20A4-4C98-AA54-B192E1C4D7B9",
+                   "name": "Find First and Last Position of Element in Sorted Array",
+                   "restrictions": ["D", "N", "V"],
+                   "description": "Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.Your algorithm's runtime complexity must be in the order of O(log n).If the target is not found in the array, return [-1, -1]."
+               },
+               {
+                   "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                   "name": "Search Insert Position",
+                   "restrictions": ["G"],
+                   "description": "Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order."
+               },
+               {
+                   "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                   "name": "Remove Element",
+                   "restrictions": ["G"],
+                   "description": "Given an array nums and a value val, remove all instances of that value in-place and return the new length.Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory."
+               },
+               {
+                   "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                   "name": "Combination Sum",
+                   "restrictions": ["G"],
+                   "description": "Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target."
+               },
+               {
+                   "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                   "name": "Reverse Pairs",
+                   "restrictions": ["G"],
+                   "description": "Given an array nums, we call (i, j) an important reverse pair if i < j and nums[i] > 2*nums[j].."
+               }
+           ]
+       },
+
+
+       {
+           "id": "EF1CC5BB-4754-4D8E-AB38-5FA5E00B6A66",
+           "name": "Recursion",
+           "items": [{
+                   "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                   "name": " Best Time to Buy and Sell Stock III",
+                   "restrictions": ["G", "V"],
+                   "description": "Say you have an array for which the ith element is the price of a given stock on day i. Design an algorithm to find the maximum profit. You may complete at most two transactions. Note: You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again)."
+               },
+               {
+                   "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                   "name": " House Robber",
+                   "restrictions": ["D", "G", "V"],
+                   "description": "You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night. Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police. "
+               },
+               {
+                   "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                   "name": "Perfect Squares",
+                   "restrictions": ["D", "N"],
+                   "description": "Given a positive integer n, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to n."
+               },
+               {
+                   "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                   "name": "Range Sum Query - Immutable",
+                   "restrictions": ["D", "G"],
+                   "description": "Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive."
+               },
+               {
+                   "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                   "name": "Wiggle Subsequence",
+                   "restrictions": ["G"],
+                   "description": "A sequence of numbers is called a wiggle sequence if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence. For example, [1,7,4,9,2,5] is a wiggle sequence because the differences (6,-3,5,-7,3) are alternately positive and negative. In contrast, [1,4,7,2,5] and [1,7,4,5,5] are not wiggle sequences, the first because its first two differences are positive and the second because its last difference is zero. Given a sequence of integers, return the length of the longest subsequence that is a wiggle sequence. A subsequence is obtained by deleting some number of elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order."
+               }
+           ]
+       },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB18-5FA5E00B6A66",
+        "name": "Trees",
+        "items": [{
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Binary Search Tree Iterator",
+                "restrictions": ["G", "V"],
+                "description": "Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST. Calling next() will return the next smallest number in the BST. "
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Invert Binary Tree",
+                "restrictions": ["D", "G", "V"],
+                "description": "Invert a binary tree."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "Kth Smallest Element in a BST",
+                "restrictions": ["D", "N"],
+                "description": "Given a binary search tree, write a function kthSmallest to find the kth smallest element in it."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "House Robber III",
+                "restrictions": ["D", "G"],
+                "description": "The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the root. Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that all houses in this place forms a binary tree . It will automatically contact the police if two directly-linked houses were broken into on the same night. Determine the maximum amount of money the thief can rob tonight without alerting the police."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "Find Bottom Left Tree Value",
+                "restrictions": ["G"],
+                "description": "Given a binary tree, find the leftmost value in the last row of the tree."
+            }
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4795-4D8E-AB98-5FA5E00B6A66",
+        "name": "HashMap",
+        "items": [{
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Palindrome Pairs",
+                "restrictions": ["G", "V"],
+                "description": "Given a list of unique words, find all pairs of distinct indices (i, j) in the given list, so that the concatenation of the two words, i.e. words[i] + words[j] is a palindrome."
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": " Island Perimeter",
+                "restrictions": ["D", "G", "V"],
+                "description": "You are given a map in form of a two-dimensional integer grid where 1 represents land and 0 represents water. Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells). The island doesn't have lakes  (water inside that isn't connected to the water around the island). One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "Keyboard Row",
+                "restrictions": ["D", "N"],
+                "description": "Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard like the image below."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "Replace Words",
+                "restrictions": ["D", "G"],
+                "description": "In English, we have a concept called root, which can be followed by some other words to form another longer word - let's call this word successor. For example, the root an, followed by other, which can form another word another. Now, given a dictionary consisting of many roots and a sentence. You need to replace all the successor in the sentence with the root forming it. If a successor has many roots can form it, replace it with the root with the shortest length. You need to output the sentence after the replacement."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "Verifying an Alien Dictionary",
+                "restrictions": ["G"],
+                "description": "In an alien language, surprisingly they also use english lowercase letters, but possibly in a different order. The order of the alphabet is some permutation of lowercase letters. Given a sequence of words written in the alien language, and the order of the alphabet, return true if and only if the given words are sorted lexicographicaly in this alien language."
+            }
+        ]
+    },
+
+
+
+
+
+    {
+        "id": "EF1CC5BB-4754-4D8E-AB98-5FA5E00B6A66",
+        "name": "Dynamic Programming",
+        "items": [{
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Airplane Seat Assignment Probability",
+                "restrictions": ["G", "V"],
+                "description": "n passengers board an airplane with exactly n seats. The first passenger has lost the ticket and picks a seat randomly. But after that, the rest of passengers will: Take their own seat if it is still available, Pick other seats randomly when they find their seat occupiedWhat is the probability that the n - th person can get his own seat ? "
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": " Count All Valid Pickup and Delivery Options",
+                "restrictions": ["D", "G", "V"],
+                "description": "Given n orders, each order consist in pickup and delivery services.  Count all valid pickup/delivery possible sequences such that delivery(i) is always after of pickup(i).  Since the answer may be too large, return it modulo 10^9 + 7."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "Count Vowels Permutation",
+                "restrictions": ["D", "N"],
+                "description": "Given an integer n, your task is to count how many strings of length n can be formed under the following rules:"
+
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "Minimum Difficulty of a Job Schedule",
+                "restrictions": ["D", "G"],
+                "description": "You want to schedule a list of jobs in d days. Jobs are dependent (i.e To work on the i-th job, you have to finish all the jobs j where 0 <= j < i). You have to finish at least one task every day. The difficulty of a job schedule is the sum of difficulties of each day of the d days. The difficulty of a day is the maximum difficulty of a job done in that day. Given an array of integers jobDifficulty and an integer d. The difficulty of the i-th job is jobDifficulty[i]. Return the minimum difficulty of a job schedule. If you cannot find a schedule for the jobs return -1."
+            },
+            ]
+    }
+]

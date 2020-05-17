@@ -1,0 +1,472 @@
+
+
+[
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "Arrays",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Two Sum",
+                "restrictions": ["G", "V"],
+                "description": "Given an array of integers, return indices of the two numbers such that they add up to a specific target."
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Median of two Sorted Arrays",
+                "restrictions": ["D", "G", "V"],
+                "description": "There are two sorted arrays nums1 and nums2 of size m and n respectively.Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).You may assume nums1 and nums2 cannot be both empty.."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "Four Sum",
+                "restrictions": ["D", "N"],
+                "description": "Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA5E00B6A66",
+        "name": "Strings",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA5E00C6A66",
+        "name": "Queues",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB18-5FA5E00B6A66",
+        "name": "Trees",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4795-4D8E-AB98-5FA5E00B6A66",
+        "name": "HashMap",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA5E00B6A62",
+        "name": "Recursion",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    {
+        "id": "EF5CC5BB-4785-4D8E-AB98-5FA5E00B6A66",
+        "name": "Divide and Conquer",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    
+    {
+        "id": "EF1CC8BB-4785-4D8E-AB98-5FA5E00B6A66",
+        "name": "BackTracking",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    
+    {
+        "id": "EF1CC5BB-4754-4D8E-AB98-5FA5E00B6A66",
+        "name": "Dynamic Programming",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    
+    {
+        "id": "EF1CC5BB-4785-3D8E-AB98-5FA5E00B6A66",
+        "name": "Bit Manipulation",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbners",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    
+    
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B7A66",
+        "name": "Stacks",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Add two numbnersssssssssss",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "subtract 2 numbers",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "multiply 2 numbers",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "divie two numbers",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "find square of a number",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "find square root of a number",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    }
+]
+

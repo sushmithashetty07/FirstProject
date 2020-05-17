@@ -1,0 +1,81 @@
+
+[
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "Data Structures",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Arrays",
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to selll"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Strings",
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "Stacks",
+                "restrictions": ["D", "N"],
+                "description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+            },
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+                "name": "Queues",
+                "restrictions": ["D", "G"],
+                "description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+            },
+            {
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+                "name": "Trees",
+                "restrictions": ["G"],
+                "description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+            },
+            {
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+                "name": "HashMap",
+                "restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+            }
+        ]
+    },
+    {
+        "name": "Algorithms",
+        "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
+        "items": [
+            {
+                "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
+                "name": "Recursion",
+                "restrictions": ["D", "G"],
+                "description": "What's better than a creamy artisinal[1] pasta that has been hand-made[2] by our chefs[3]? All that with bacon, of course! ([1] Shop bought; [2] Hand-purchased; [3] wait staff)"
+            },
+            {
+                "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
+                "name": "Divide and Conquer",
+                "restrictions": ["D", "G", "V"],
+                "description": "If you're the kind of fun guy (sorry not sorry) that likes salami-filled Italian food with a twist, this is the perfect dish for you. The twist? We lied about the meat."
+            },
+            {
+                "id": "759527CB-1064-4082-A527-F04698F9D18F",
+                "name": "BackTracking",
+                "restrictions": ["D", "G"],
+                "description": "It's a truth universally acknowledged that every restaurant is in want of a burger, and trust us: this thing is so tall you can't even get your mouth around it without dislocating your jaw."
+            },
+            {
+                "id": "AD419CE6-50CC-4132-BE8E-B92B9DFE4D02",
+                "name": "Dynamic Programming",
+                "restrictions": ["S"],
+                "description": "This dish errs more towards \"scorching\" than \"spicy\", so let us know ahead of time if you want it so we can put a few fire engines on standby."
+            },
+            {
+                "id": "944AB773-16CA-48F9-BB64-BB0E482FE102",
+                "name": "Bit Manipulation",
+                "restrictions": ["G", "S"],
+                "description": "This is paella made Alicante-style. We don't quite know what that means, but we need to justify the Spanish junket somehow. ¡Olé!"
+            }
+        ]
+    }
+]

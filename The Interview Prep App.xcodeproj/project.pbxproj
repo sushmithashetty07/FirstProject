@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1F2219243580A300C3114D /* Third_menu.json in Resources */ = {isa = PBXBuildFile; fileRef = FF1F2218243580A300C3114D /* Third_menu.json */; };
+		FF1F221B2435827900C3114D /* Third_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F221A2435827900C3114D /* Third_Menu.swift */; };
+		FF1F221F2435869100C3114D /* Netflix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F221E2435869100C3114D /* Netflix.swift */; };
+		FF1F22212435870C00C3114D /* ThirdContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F22202435870C00C3114D /* ThirdContentView.swift */; };
+		FF4BD13D243958AA00A08BEE /* Hulu.json in Resources */ = {isa = PBXBuildFile; fileRef = FF4BD13C243958AA00A08BEE /* Hulu.json */; };
+		FF4BD13F2439622700A08BEE /* FourthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4BD13E2439622700A08BEE /* FourthContentView.swift */; };
+		FFB091732439AA24009E2FC9 /* Disney.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB091722439AA24009E2FC9 /* Disney.json */; };
+		FFB091752439AA65009E2FC9 /* Pixar.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB091742439AA65009E2FC9 /* Pixar.json */; };
+		FFB091792439AA93009E2FC9 /* Facebook.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB091782439AA93009E2FC9 /* Facebook.json */; };
+		FFB0917D2439AACC009E2FC9 /* google.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB0917C2439AACC009E2FC9 /* google.json */; };
+		FFB0917F2439AAD5009E2FC9 /* amazon.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB0917E2439AAD5009E2FC9 /* amazon.json */; };
+		FFB091812439AADE009E2FC9 /* twitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB091802439AADE009E2FC9 /* twitter.json */; };
+		FFB091852439AB05009E2FC9 /* yahoo.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB091842439AB05009E2FC9 /* yahoo.json */; };
+		FFB091872439AB0F009E2FC9 /* salesforce.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB091862439AB0F009E2FC9 /* salesforce.json */; };
+		FFB091892439AB1F009E2FC9 /* youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB091882439AB1F009E2FC9 /* youtube.json */; };
+		FFB0918B2439AB37009E2FC9 /* quora.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB0918A2439AB37009E2FC9 /* quora.json */; };
+		FFB0918D2439AB42009E2FC9 /* paypal.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB0918C2439AB42009E2FC9 /* paypal.json */; };
+		FFB0918F2439AB52009E2FC9 /* square.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB0918E2439AB52009E2FC9 /* square.json */; };
+		FFB091912439AB5B009E2FC9 /* visa.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB091902439AB5B009E2FC9 /* visa.json */; };
+		FFB091932439AD4E009E2FC9 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB091922439AD4E009E2FC9 /* SplashScreen.swift */; };
+		FFC17290242C13760056F645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC1728F242C13760056F645 /* AppDelegate.swift */; };
+		FFC17292242C13760056F645 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC17291242C13760056F645 /* SceneDelegate.swift */; };
+		FFC17294242C13760056F645 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC17293242C13760056F645 /* ContentView.swift */; };
+		FFC17296242C13760056F645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC17295242C13760056F645 /* Assets.xcassets */; };
+		FFC17299242C13760056F645 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC17298242C13760056F645 /* Preview Assets.xcassets */; };
+		FFC1729C242C13760056F645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC1729A242C13760056F645 /* LaunchScreen.storyboard */; };
+		FFC172A7242C13760056F645 /* The_Interview_Prep_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC172A6242C13760056F645 /* The_Interview_Prep_AppTests.swift */; };
+		FFC172B2242C13760056F645 /* The_Interview_Prep_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC172B1242C13760056F645 /* The_Interview_Prep_AppUITests.swift */; };
+		FFC172C0242C14120056F645 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC172BF242C14120056F645 /* Helper.swift */; };
+		FFC172C2242C15BB0056F645 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = FFC172C1242C15BB0056F645 /* menu.json */; };
+		FFC172C4242C15D10056F645 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC172C3242C15D10056F645 /* Menu.swift */; };
+		FFC172CA242C24C70056F645 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC172C9242C24C70056F645 /* SecondContentView.swift */; };
+		FFC172CE242C30800056F645 /* Second_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC172CD242C30800056F645 /* Second_Menu.swift */; };
+		FFC172D0242C30AF0056F645 /* Second_menu.json in Resources */ = {isa = PBXBuildFile; fileRef = FFC172CF242C30AF0056F645 /* Second_menu.json */; };
+		FFC172D2242C42330056F645 /* secondhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC172D1242C42330056F645 /* secondhelper.swift */; };
+		FFE85CA2243BCFD2005B919C /* oracle.json in Resources */ = {isa = PBXBuildFile; fileRef = FFE85CA1243BCFD2005B919C /* oracle.json */; };
+		FFE85CA4243BCFDB005B919C /* dropbox.json in Resources */ = {isa = PBXBuildFile; fileRef = FFE85CA3243BCFDB005B919C /* dropbox.json */; };
+		FFE85CA8243BCFFB005B919C /* adobe.json in Resources */ = {isa = PBXBuildFile; fileRef = FFE85CA7243BCFFB005B919C /* adobe.json */; };
+		FFE85CAA243BD003005B919C /* mozilla.json in Resources */ = {isa = PBXBuildFile; fileRef = FFE85CA9243BD003005B919C /* mozilla.json */; };
+		FFE85CAC243BD03E005B919C /* intuit.json in Resources */ = {isa = PBXBuildFile; fileRef = FFE85CAB243BD03E005B919C /* intuit.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFC172A3242C13760056F645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC17284242C13750056F645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC1728B242C13760056F645;
+			remoteInfo = "The Interview Prep App";
+		};
+		FFC172AE242C13760056F645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC17284242C13750056F645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC1728B242C13760056F645;
+			remoteInfo = "The Interview Prep App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1F2218243580A300C3114D /* Third_menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Third_menu.json; sourceTree = "<group>"; };
+		FF1F221A2435827900C3114D /* Third_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third_Menu.swift; sourceTree = "<group>"; };
+		FF1F221E2435869100C3114D /* Netflix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netflix.swift; sourceTree = "<group>"; };
+		FF1F22202435870C00C3114D /* ThirdContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdContentView.swift; sourceTree = "<group>"; };
+		FF4BD13C243958AA00A08BEE /* Hulu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hulu.json; sourceTree = "<group>"; };
+		FF4BD13E2439622700A08BEE /* FourthContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthContentView.swift; sourceTree = "<group>"; };
+		FFB091722439AA24009E2FC9 /* Disney.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Disney.json; sourceTree = "<group>"; };
+		FFB091742439AA65009E2FC9 /* Pixar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Pixar.json; sourceTree = "<group>"; };
+		FFB091782439AA93009E2FC9 /* Facebook.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Facebook.json; sourceTree = "<group>"; };
+		FFB0917C2439AACC009E2FC9 /* google.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = google.json; sourceTree = "<group>"; };
+		FFB0917E2439AAD5009E2FC9 /* amazon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = amazon.json; sourceTree = "<group>"; };
+		FFB091802439AADE009E2FC9 /* twitter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = twitter.json; sourceTree = "<group>"; };
+		FFB091842439AB05009E2FC9 /* yahoo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = yahoo.json; sourceTree = "<group>"; };
+		FFB091862439AB0F009E2FC9 /* salesforce.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = salesforce.json; sourceTree = "<group>"; };
+		FFB091882439AB1F009E2FC9 /* youtube.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = youtube.json; sourceTree = "<group>"; };
+		FFB0918A2439AB37009E2FC9 /* quora.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quora.json; sourceTree = "<group>"; };
+		FFB0918C2439AB42009E2FC9 /* paypal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = paypal.json; sourceTree = "<group>"; };
+		FFB0918E2439AB52009E2FC9 /* square.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = square.json; sourceTree = "<group>"; };
+		FFB091902439AB5B009E2FC9 /* visa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = visa.json; sourceTree = "<group>"; };
+		FFB091922439AD4E009E2FC9 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		FFC1728C242C13760056F645 /* The Interview Prep App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Interview Prep App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC1728F242C13760056F645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFC17291242C13760056F645 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFC17293242C13760056F645 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFC17295242C13760056F645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFC17298242C13760056F645 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFC1729B242C13760056F645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFC1729D242C13760056F645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC172A2242C13760056F645 /* The Interview Prep AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Interview Prep AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC172A6242C13760056F645 /* The_Interview_Prep_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Interview_Prep_AppTests.swift; sourceTree = "<group>"; };
+		FFC172A8242C13760056F645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC172AD242C13760056F645 /* The Interview Prep AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Interview Prep AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC172B1242C13760056F645 /* The_Interview_Prep_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Interview_Prep_AppUITests.swift; sourceTree = "<group>"; };
+		FFC172B3242C13760056F645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC172BF242C14120056F645 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		FFC172C1242C15BB0056F645 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		FFC172C3242C15D10056F645 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		FFC172C9242C24C70056F645 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
+		FFC172CD242C30800056F645 /* Second_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Menu.swift; sourceTree = "<group>"; };
+		FFC172CF242C30AF0056F645 /* Second_menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Second_menu.json; sourceTree = "<group>"; };
+		FFC172D1242C42330056F645 /* secondhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondhelper.swift; sourceTree = "<group>"; };
+		FFE85CA1243BCFD2005B919C /* oracle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = oracle.json; sourceTree = "<group>"; };
+		FFE85CA3243BCFDB005B919C /* dropbox.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dropbox.json; sourceTree = "<group>"; };
+		FFE85CA7243BCFFB005B919C /* adobe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = adobe.json; sourceTree = "<group>"; };
+		FFE85CA9243BD003005B919C /* mozilla.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mozilla.json; sourceTree = "<group>"; };
+		FFE85CAB243BD03E005B919C /* intuit.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = intuit.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC17289242C13760056F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC1729F242C13760056F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC172AA242C13760056F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFC17283242C13750056F645 = {
+			isa = PBXGroup;
+			children = (
+				FFE85CAB243BD03E005B919C /* intuit.json */,
+				FFB091922439AD4E009E2FC9 /* SplashScreen.swift */,
+				FFB091782439AA93009E2FC9 /* Facebook.json */,
+				FFB0917C2439AACC009E2FC9 /* google.json */,
+				FFB0917E2439AAD5009E2FC9 /* amazon.json */,
+				FFB091802439AADE009E2FC9 /* twitter.json */,
+				FFE85CA1243BCFD2005B919C /* oracle.json */,
+				FFE85CA3243BCFDB005B919C /* dropbox.json */,
+				FFE85CA7243BCFFB005B919C /* adobe.json */,
+				FFE85CA9243BD003005B919C /* mozilla.json */,
+				FFB091842439AB05009E2FC9 /* yahoo.json */,
+				FFB091722439AA24009E2FC9 /* Disney.json */,
+				FFB091862439AB0F009E2FC9 /* salesforce.json */,
+				FF4BD13C243958AA00A08BEE /* Hulu.json */,
+				FFB091882439AB1F009E2FC9 /* youtube.json */,
+				FFB091742439AA65009E2FC9 /* Pixar.json */,
+				FFB0918A2439AB37009E2FC9 /* quora.json */,
+				FFB0918C2439AB42009E2FC9 /* paypal.json */,
+				FF1F2218243580A300C3114D /* Third_menu.json */,
+				FFB0918E2439AB52009E2FC9 /* square.json */,
+				FFB091902439AB5B009E2FC9 /* visa.json */,
+				FF1F221E2435869100C3114D /* Netflix.swift */,
+				FFC1728E242C13760056F645 /* The Interview Prep App */,
+				FFC172A5242C13760056F645 /* The Interview Prep AppTests */,
+				FFC172B0242C13760056F645 /* The Interview Prep AppUITests */,
+				FFC1728D242C13760056F645 /* Products */,
+				FF1F221A2435827900C3114D /* Third_Menu.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC1728D242C13760056F645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1728C242C13760056F645 /* The Interview Prep App.app */,
+				FFC172A2242C13760056F645 /* The Interview Prep AppTests.xctest */,
+				FFC172AD242C13760056F645 /* The Interview Prep AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC1728E242C13760056F645 /* The Interview Prep App */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1728F242C13760056F645 /* AppDelegate.swift */,
+				FFC17291242C13760056F645 /* SceneDelegate.swift */,
+				FFC172C3242C15D10056F645 /* Menu.swift */,
+				FFC172C1242C15BB0056F645 /* menu.json */,
+				FFC17293242C13760056F645 /* ContentView.swift */,
+				FFC172BF242C14120056F645 /* Helper.swift */,
+				FFC17295242C13760056F645 /* Assets.xcassets */,
+				FFC1729A242C13760056F645 /* LaunchScreen.storyboard */,
+				FFC1729D242C13760056F645 /* Info.plist */,
+				FFC17297242C13760056F645 /* Preview Content */,
+				FFC172C9242C24C70056F645 /* SecondContentView.swift */,
+				FF1F22202435870C00C3114D /* ThirdContentView.swift */,
+				FF4BD13E2439622700A08BEE /* FourthContentView.swift */,
+				FFC172CD242C30800056F645 /* Second_Menu.swift */,
+				FFC172CF242C30AF0056F645 /* Second_menu.json */,
+				FFC172D1242C42330056F645 /* secondhelper.swift */,
+			);
+			path = "The Interview Prep App";
+			sourceTree = "<group>";
+		};
+		FFC17297242C13760056F645 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFC17298242C13760056F645 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFC172A5242C13760056F645 /* The Interview Prep AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFC172A6242C13760056F645 /* The_Interview_Prep_AppTests.swift */,
+				FFC172A8242C13760056F645 /* Info.plist */,
+			);
+			path = "The Interview Prep AppTests";
+			sourceTree = "<group>";
+		};
+		FFC172B0242C13760056F645 /* The Interview Prep AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFC172B1242C13760056F645 /* The_Interview_Prep_AppUITests.swift */,
+				FFC172B3242C13760056F645 /* Info.plist */,
+			);
+			path = "The Interview Prep AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC1728B242C13760056F645 /* The Interview Prep App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC172B6242C13760056F645 /* Build configuration list for PBXNativeTarget "The Interview Prep App" */;
+			buildPhases = (
+				FFC17288242C13760056F645 /* Sources */,
+				FFC17289242C13760056F645 /* Frameworks */,
+				FFC1728A242C13760056F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Interview Prep App";
+			productName = "The Interview Prep App";
+			productReference = FFC1728C242C13760056F645 /* The Interview Prep App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFC172A1242C13760056F645 /* The Interview Prep AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC172B9242C13760056F645 /* Build configuration list for PBXNativeTarget "The Interview Prep AppTests" */;
+			buildPhases = (
+				FFC1729E242C13760056F645 /* Sources */,
+				FFC1729F242C13760056F645 /* Frameworks */,
+				FFC172A0242C13760056F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC172A4242C13760056F645 /* PBXTargetDependency */,
+			);
+			name = "The Interview Prep AppTests";
+			productName = "The Interview Prep AppTests";
+			productReference = FFC172A2242C13760056F645 /* The Interview Prep AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFC172AC242C13760056F645 /* The Interview Prep AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC172BC242C13760056F645 /* Build configuration list for PBXNativeTarget "The Interview Prep AppUITests" */;
+			buildPhases = (
+				FFC172A9242C13760056F645 /* Sources */,
+				FFC172AA242C13760056F645 /* Frameworks */,
+				FFC172AB242C13760056F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC172AF242C13760056F645 /* PBXTargetDependency */,
+			);
+			name = "The Interview Prep AppUITests";
+			productName = "The Interview Prep AppUITests";
+			productReference = FFC172AD242C13760056F645 /* The Interview Prep AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC17284242C13750056F645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sushmitha Shetty";
+				TargetAttributes = {
+					FFC1728B242C13760056F645 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FFC172A1242C13760056F645 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FFC1728B242C13760056F645;
+					};
+					FFC172AC242C13760056F645 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FFC1728B242C13760056F645;
+					};
+				};
+			};
+			buildConfigurationList = FFC17287242C13750056F645 /* Build configuration list for PBXProject "The Interview Prep App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC17283242C13750056F645;
+			productRefGroup = FFC1728D242C13760056F645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC1728B242C13760056F645 /* The Interview Prep App */,
+				FFC172A1242C13760056F645 /* The Interview Prep AppTests */,
+				FFC172AC242C13760056F645 /* The Interview Prep AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC1728A242C13760056F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE85CA8243BCFFB005B919C /* adobe.json in Resources */,
+				FFC1729C242C13760056F645 /* LaunchScreen.storyboard in Resources */,
+				FF4BD13D243958AA00A08BEE /* Hulu.json in Resources */,
+				FFB091912439AB5B009E2FC9 /* visa.json in Resources */,
+				FFB091852439AB05009E2FC9 /* yahoo.json in Resources */,
+				FFC17299242C13760056F645 /* Preview Assets.xcassets in Resources */,
+				FF1F2219243580A300C3114D /* Third_menu.json in Resources */,
+				FFB0917D2439AACC009E2FC9 /* google.json in Resources */,
+				FFB091812439AADE009E2FC9 /* twitter.json in Resources */,
+				FFE85CA2243BCFD2005B919C /* oracle.json in Resources */,
+				FFC172C2242C15BB0056F645 /* menu.json in Resources */,
+				FFB0918F2439AB52009E2FC9 /* square.json in Resources */,
+				FFE85CAA243BD003005B919C /* mozilla.json in Resources */,
+				FFB0918D2439AB42009E2FC9 /* paypal.json in Resources */,
+				FFB091872439AB0F009E2FC9 /* salesforce.json in Resources */,
+				FFE85CAC243BD03E005B919C /* intuit.json in Resources */,
+				FFB091792439AA93009E2FC9 /* Facebook.json in Resources */,
+				FFB0917F2439AAD5009E2FC9 /* amazon.json in Resources */,
+				FFB091892439AB1F009E2FC9 /* youtube.json in Resources */,
+				FFC172D0242C30AF0056F645 /* Second_menu.json in Resources */,
+				FFC17296242C13760056F645 /* Assets.xcassets in Resources */,
+				FFB0918B2439AB37009E2FC9 /* quora.json in Resources */,
+				FFB091732439AA24009E2FC9 /* Disney.json in Resources */,
+				FFE85CA4243BCFDB005B919C /* dropbox.json in Resources */,
+				FFB091752439AA65009E2FC9 /* Pixar.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC172A0242C13760056F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC172AB242C13760056F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC17288242C13760056F645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1F22212435870C00C3114D /* ThirdContentView.swift in Sources */,
+				FFC17290242C13760056F645 /* AppDelegate.swift in Sources */,
+				FFC172D2242C42330056F645 /* secondhelper.swift in Sources */,
+				FF1F221B2435827900C3114D /* Third_Menu.swift in Sources */,
+				FF4BD13F2439622700A08BEE /* FourthContentView.swift in Sources */,
+				FFC17292242C13760056F645 /* SceneDelegate.swift in Sources */,
+				FF1F221F2435869100C3114D /* Netflix.swift in Sources */,
+				FFB091932439AD4E009E2FC9 /* SplashScreen.swift in Sources */,
+				FFC17294242C13760056F645 /* ContentView.swift in Sources */,
+				FFC172CE242C30800056F645 /* Second_Menu.swift in Sources */,
+				FFC172C0242C14120056F645 /* Helper.swift in Sources */,
+				FFC172CA242C24C70056F645 /* SecondContentView.swift in Sources */,
+				FFC172C4242C15D10056F645 /* Menu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC1729E242C13760056F645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC172A7242C13760056F645 /* The_Interview_Prep_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC172A9242C13760056F645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC172B2242C13760056F645 /* The_Interview_Prep_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFC172A4242C13760056F645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC1728B242C13760056F645 /* The Interview Prep App */;
+			targetProxy = FFC172A3242C13760056F645 /* PBXContainerItemProxy */;
+		};
+		FFC172AF242C13760056F645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC1728B242C13760056F645 /* The Interview Prep App */;
+			targetProxy = FFC172AE242C13760056F645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFC1729A242C13760056F645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC1729B242C13760056F645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFC172B4242C13760056F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFC172B5242C13760056F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFC172B7242C13760056F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"The Interview Prep App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "The Interview Prep App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushmitha.The-Interview-Prep-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFC172B8242C13760056F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"The Interview Prep App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "The Interview Prep App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushmitha.The-Interview-Prep-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFC172BA242C13760056F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Interview Prep AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushmitha.The-Interview-Prep-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Interview Prep App.app/The Interview Prep App";
+			};
+			name = Debug;
+		};
+		FFC172BB242C13760056F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Interview Prep AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushmitha.The-Interview-Prep-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Interview Prep App.app/The Interview Prep App";
+			};
+			name = Release;
+		};
+		FFC172BD242C13760056F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Interview Prep AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushmitha.The-Interview-Prep-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Interview Prep App";
+			};
+			name = Debug;
+		};
+		FFC172BE242C13760056F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Interview Prep AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushmitha.The-Interview-Prep-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Interview Prep App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC17287242C13750056F645 /* Build configuration list for PBXProject "The Interview Prep App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC172B4242C13760056F645 /* Debug */,
+				FFC172B5242C13760056F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC172B6242C13760056F645 /* Build configuration list for PBXNativeTarget "The Interview Prep App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC172B7242C13760056F645 /* Debug */,
+				FFC172B8242C13760056F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC172B9242C13760056F645 /* Build configuration list for PBXNativeTarget "The Interview Prep AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC172BA242C13760056F645 /* Debug */,
+				FFC172BB242C13760056F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC172BC242C13760056F645 /* Build configuration list for PBXNativeTarget "The Interview Prep AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC172BD242C13760056F645 /* Debug */,
+				FFC172BE242C13760056F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC17284242C13750056F645 /* Project object */;
+}
